@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import { forwardRef } from 'react';
 import { InputField as BaseInputField } from './InputField';
 import type { InputFieldProps as BaseInputFieldProps } from './InputField';
 import { useTheme } from './ThemeContext';

@@ -255,7 +255,7 @@ const productColumns: Column<Product>[] = [
   }
 ];
 
-const meta: Meta<typeof DataTable> = {
+const meta: Meta<any> = {
   title: 'Components/DataTable',
   component: DataTable,
   parameters: {
@@ -298,7 +298,7 @@ const meta: Meta<typeof DataTable> = {
 };
 
 export default meta;
-type Story = StoryObj<typeof DataTable>;
+type Story = StoryObj<any>;
 
 // Basic table story
 export const Default: Story = {
